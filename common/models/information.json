@@ -1,0 +1,27 @@
+{
+  "name": "information",
+  "plural": "informations",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "First": {
+      "type": "string",
+      "required": true
+    },
+    "Last": {
+      "type": "string",
+      "required": true
+    },
+    "age": {
+      "type": "number",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
